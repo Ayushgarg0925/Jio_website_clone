@@ -1,8 +1,39 @@
-/* @media screen and (max-width: 900px) and (min-width: 600px) {
-  .parent_div_header {
-    font-size: 50px;
-    padding: 50px;
-    border: 8px solid black;
-    background-color: yellow;
+@media screen and (max-width: 991px) and (min-width: 323px) {
+  .header_link {
+    visibility: hidden;
+
   }
-} */
+
+  .menu_line1, .menu_line2 , .menu_line3 {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 5px 0;
+
+    transition: 0.4s;
+  }
+
+ 
+  .change .menu_line1 {
+    transform: translate(0, 3px) rotate(-45deg);
+  }
+
+  .change .menu_line2 {
+    opacity: 0;
+  }
+
+  .change .menu_line3 {
+    transform: translate(0, -11px) rotate(45deg);
+
+  }
+}
+  @media screen and (max-width: 759px) and (min-width: 323px) {
+
+    .header_link {
+      display: none;
+    }
+
+    .search_logo {
+      width: 200px;
+    }
+  }
