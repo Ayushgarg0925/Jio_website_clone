@@ -1,10 +1,11 @@
 * {
     font-family: JioType, helvetica, arial, sans-serif;
-    margin: 0;
-    padding: 0;
+   
 }
+
+
 .parent_div_header{
-    position: fixed;
+    position: static;
     width: 100%;
     height: 70px;
     background-color: #0f3cc9;
@@ -16,6 +17,10 @@
     align-items: center;
     width: 85vw;
     height: 100%;
+}
+.nav_sec> li{
+    background-color: #0f3cc9;
+
 }
 .header_link{
     margin-left:4vw;
@@ -67,4 +72,7 @@ input::placeholder {
     background-color: #e7ebf8;
 }
 
-
+/* slider css */
+.sliser_css{
+    height: 450px;
+}

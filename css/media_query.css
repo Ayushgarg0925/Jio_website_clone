@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px) and (min-width: 323px) {
+@media screen and (max-width: 991px) and (min-width: 300px) {
   .header_link {
     visibility: hidden;
 
@@ -27,7 +27,7 @@
 
   }
 }
-  @media screen and (max-width: 759px) and (min-width: 323px) {
+  @media screen and (max-width: 768px) and (min-width: 0px) {
 
     .header_link {
       display: none;
@@ -36,4 +36,10 @@
     .search_logo {
       width: 200px;
     }
+  }
+  @media screen and (max-width: 420px) and (min-width: 0px) {
+
+   .search_logo{
+    display: none;
+   }
   }
